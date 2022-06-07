@@ -5,7 +5,7 @@ pipeline {
       stage('checkout') {
            steps {
              
-                git branch: 'master', url: 'https://github.com/devops4solutions/Ansible-Sample-Application-Deployment.git'
+                git branch: 'main', url: 'git@github.com:sathish5692/ansible-jenkins.git'
              
           }
         }
